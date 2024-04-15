@@ -5,7 +5,7 @@ FROM pytorch/pytorch:1.8.1-cuda10.2-cudnn7-runtime
 
 # Install inotify-tools to monitor changes and nano and less
 RUN apt-get -y update && apt -y install inotify-tools curl
-RUN apt-get -y install nano less unzip
+RUN apt-get -y install nano less unzip wget
 # Install AWS CLI (removed if unnecessary)
 # RUN apt -y install unzip
 # COPY awscli-bundle-1.32.0.zip /usr/local/bin/awscli-bundle.zip
