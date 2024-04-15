@@ -30,7 +30,7 @@ RUN pip install ipywidgets
 # Install HuggingFace
 RUN pip install transformers
 RUN pip install datasets
-RUN pip install accelerate, for Distributed Training using PyTorch
+# RUN pip install accelerate, for Distributed Training using PyTorch
 
 # Tokenizer and Detokenizer
 RUN pip install sentencepiece
