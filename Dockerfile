@@ -36,7 +36,7 @@ RUN pip install datasets
 RUN pip install sentencepiece
 
 # Install the AutoAWQ to support the quantized models - PyTorch GPU
-RUN pip install https://github.com/casper-hansen/AutoAWQ/releases/download/v0.1.6/autoawq-0.1.6+cu118-cp310-cp310-linux_x86_64.whl
+# RUN pip install https://github.com/casper-hansen/AutoAWQ/releases/download/v0.1.6/autoawq-0.1.6+cu118-cp310-cp310-linux_x86_64.whl
 
 # Install additional libraries and dependencies to special needs
 RUN pip install matplotlib
